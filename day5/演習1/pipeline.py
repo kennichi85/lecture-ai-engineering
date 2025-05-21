@@ -169,6 +169,8 @@ if __name__ == "__main__":
         # Kedro ランナーの作成
         runner = SequentialRunner()
 
+        print("test")
+
         # パイプラインの実行
         logger.info("パイプラインの実行を開始します。")
         runner.run(pipeline, catalog)
